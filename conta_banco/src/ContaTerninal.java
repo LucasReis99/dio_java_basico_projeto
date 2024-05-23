@@ -17,7 +17,7 @@ public class ContaTerninal {
         String agencia = scanner.nextLine();
 
         // Pedir ao usuário que insira o nome do cliente
-        System.out.print("Informe nome completo do cliente: ");
+        System.out.print("Informe o nome completo do cliente: ");
         String nomeCliente = scanner.nextLine();
 
         // Pedir ao usuário que insira o saldo
@@ -29,7 +29,7 @@ public class ContaTerninal {
 
         // Exibir a mensagem formatada
         String mensagem = "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, "
-                        + "sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque." + "seja muito bem-vindo ao nosso banco!";
+                        + "sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque." + "Seja muito bem-vindo ao nosso banco!";
         System.out.println(mensagem);
     }
 }
