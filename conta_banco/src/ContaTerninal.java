@@ -29,7 +29,7 @@ public class ContaTerninal {
 
         // Exibir a mensagem formatada
         String mensagem = "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, "
-                        + "sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque." + "Seja muito bem-vindo ao nosso banco!";
+                        + "sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque." + "Já está tudo certo! Já pode sacar o seu dinheiro!";
         System.out.println(mensagem);
     }
 }
